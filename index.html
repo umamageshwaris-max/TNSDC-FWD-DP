@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Student Portfolio</title>
+
+  <style>
+
+    body {
+
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+      margin: 0;
+
+      padding: 0;
+
+      background: #f6f8f6;
+
+      color: #2e2e2e;
+
+    }
+
+    header {
+
+      background: linear-gradient(135deg, #9caf88, #cfd8cf, #a8bfa1);
+
+      color: #2c2c2c;
+
+      text-align: center;
+
+      padding: 70px 20px;
+
+    }
+
+    header h1 span {
+
+      color: #2f4f4f; /* Dark Ash Green */
+
+    }
+
+    header button {
+
+      padding: 12px 24px;
+
+      background: #2f4f4f;
+
+      color: white;
+
+      border: none;
+
+      cursor: pointer;
+
+      border-radius: 25px;
+
+      font-weight: bold;
+
+      margin-top: 15px;
+
+      transition: 0.3s;
+
+    }
+
+    header button:hover {
+
+      background: #1e3838;
+
+    }
+
+    .about {
+
+      text-align: center;
+
+      padding: 50px 20px;
+
+    }
+
+    .about img {
+
+      width: 160px;
+
+      height: 160px;
+
+      border-radius: 50%;
+
+      object-fit: cover;
+
+      border: 5px solid #9caf88;
+
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+
+    }
+
+    .projects {
+
+      display: flex;
+
+      justify-content: center;
+
+      padding: 40px 20px;
+
+      flex-wrap: wrap;
+
+      gap: 20px;
+
+    }
+
+    .projects div {
+
+      background: white;
+
+      padding: 25px;
+
+      width: 260px;
+
+      border-radius: 15px;
+
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+      transition: transform 0.3s, box-shadow 0.3s;
+
+      border: 1px solid #dfe5df;
+
+    }
+
+    .projects div:hover {
+
+      transform: translateY(-8px);
+
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+
+    }
+
+    .projects h3 {
+
+      color: #2f4f4f;
+
+    }
+
+    .contact {
+
+      text-align: center;
+
+      padding: 50px 20px;
+
+      background: #ecf2ec;
+
+    }
+
+    .contact input, .contact textarea {
+
+      width: 85%;
+
+      max-width: 420px;
+
+      margin: 10px auto;
+
+      padding: 12px;
+
+      display: block;
+
+      border: 1px solid #b0c4b0;
+
+      border-radius: 8px;
+
+      outline: none;
+
+      font-size: 14px;
+
+      background: #f9faf9;
+
+    }
+
+    .contact input:focus, .contact textarea:focus {
+
+      border-color: #2f4f4f;
+
+      box-shadow: 0px 0px 6px rgba(47,79,79,0.3);
+
+    }
+
+    .contact button {
+
+      padding: 12px 25px;
+
+      background: #2f4f4f;
+
+      color: white;
+
+      border: none;
+
+      cursor: pointer;
+
+      border-radius: 25px;
+
+      font-size: 15px;
+
+      margin-top: 10px;
+
+      transition: 0.3s;
+
+    }
+
+    .contact button:hover {
+
+      background: #1e3838;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Hi, I'm <span>S. Uma Mageshwari</span></h1>
+
+    <p>A passionate learner exploring the world of coding! 💻✨</p>
+
+    <button>Check My Projects</button>
+
+  </header>
+
+  <section class="about">
+
+    <h2>About Me</h2>
+
+    <!-- Girl image -->
+
+    <img src="https://www.w3schools.com/w3images/avatar6.png" alt="Girl profile image"/>
+
+  </section>
+
+  <section class="projects">
+
+    <div>
+
+      <h3>Project A</h3>
+
+      <p>Portfolio website with modern design.</p>
+
+    </div>
+
+    <div>
+
+      <h3>Project B</h3>
+
+      <p>JavaScript game development project.</p>
+
+    </div>
+
+    <div>
+
+      <h3>Project C</h3>
+
+      <p>Personal blog styled with CSS Flexbox & Grid.</p>
+
+    </div>
+
+  </section>
+
+  <section class="contact">
+
+    <h2>Contact Me</h2>
+
+    <input type="text" placeholder="Your Name"/>
+
+    <input type="email" placeholder="Your Email"/>
+
+    <textarea rows="4" placeholder="Your Message"></textarea>
+
+    <button>Send Message</button>
+
+  </section>
+
+</body>
+
+</html>
